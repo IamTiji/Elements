@@ -12,4 +12,8 @@ Protected with [MIT License](LICENSE)
 
 ### Air
 
-![air](assets/readme/air.mp4)
+Air is element that works as empty space.
+
+### Sand
+
+![Sand](assets/readme/sand.mp4)
