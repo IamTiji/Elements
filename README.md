@@ -6,8 +6,10 @@ Made by Tiji
 
 Requires numpy, scipy, and tkinter to run properly
 
+Protected with [MIT License](LICENSE)
+
 ## Elements
 
 ### Air
 
-![assets/readme/air.mp4](Air)
+![air](assets/readme/air.mp4)
