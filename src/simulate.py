@@ -357,12 +357,9 @@ class Simulation:
         else:
             return out
     
-    def iron(surround, temp):
-        return surround
-    
-    IDS = {0: air, 1: sand, 2: water, 3: steam, 4: stone, 5: acid, 6: ice, 7: infispread, 8: virus, 9: glass, 10: lava, 11: fire, 12: hotterfire, 13: coldfire, 14: iron}
-    COLOR = {-1: "#555555", 0: "#000000", 1: "#ffd200", 2: "#0052ff", 3: "#a2a2a2", 4: "#828282", 5: "#a2ff22", 6: "#00ffff", 7: "#a200ff", 8: "#df00ff", 9: "#a2ffff", 10: "#ff0000", 11: "#ff0000", 12: "#0055ff", 13: "#0012ff", 14: "#d2d2d2"}
-    TAGS = {-1: ['soild'], 0: ['empty'], 1: ['dust'], 2: ['liquid'], 3: ['gas'], 4: ['soild'], 5: ['liquid','acid'], 6: ['soild'], 7: ['soild'], 8: ['soild'], 9: ['soild'], 10: ['liquid'], 11: ['gas'], 12: ['gas'], 13: ['gas'], 14: ['soild']}
-    NAME = {-1: 'Border', 0: 'Air', 1: 'Sand', 2: 'Water', 3: 'Steam', 4: 'Stone', 5: 'Acid', 6: 'Ice', 7: 'Infispread', 8: 'Virus', 9: 'Glass', 10: 'Lava', 11: 'Fire', 12: 'Hotter Fire', 13: 'Cold Fire', 14: 'Iron'}
-    DEFAULTTEMP = {0: 30, 1: 30, 2: 30, 3: 120, 4: 30, 5: 30, 6: -10, 7: 30, 8: 30, 9: 30, 10: 2000, 11: 3000, 12: 20000, 13: -10000, 14: 30}
+    IDS = {0: air, 1: sand, 2: water, 3: steam, 4: stone, 5: acid, 6: ice, 7: infispread, 8: virus, 9: glass, 10: lava, 11: fire, 12: hotterfire, 13: coldfire}
+    COLOR = {-1: "#555555", 0: "#000000", 1: "#ffd200", 2: "#0052ff", 3: "#a2a2a2", 4: "#828282", 5: "#a2ff22", 6: "#00ffff", 7: "#a200ff", 8: "#df00ff", 9: "#a2ffff", 10: "#ff0000", 11: "#ff0000", 12: "#0055ff", 13: "#0012ff"}
+    TAGS = {-1: ['soild'], 0: ['empty'], 1: ['dust'], 2: ['liquid'], 3: ['gas'], 4: ['soild'], 5: ['liquid','acid'], 6: ['soild'], 7: ['soild'], 8: ['soild'], 9: ['soild'], 10: ['liquid'], 11: ['gas'], 12: ['gas'], 13: ['gas']}
+    NAME = {-1: 'Border', 0: 'Air', 1: 'Sand', 2: 'Water', 3: 'Steam', 4: 'Stone', 5: 'Acid', 6: 'Ice', 7: 'Infispread', 8: 'Virus', 9: 'Glass', 10: 'Lava', 11: 'Fire', 12: 'Hotter Fire', 13: 'Cold Fire'}
+    DEFAULTTEMP = {0: 30, 1: 30, 2: 30, 3: 120, 4: 30, 5: 30, 6: -10, 7: 30, 8: 30, 9: 30, 10: 2000, 11: 3000, 12: 20000, 13: -10000}
     
