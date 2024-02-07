@@ -16,7 +16,7 @@ Air is element that works as empty space.
 
 ### Sand
 
-file://assets/readme/sand.mp4
+https://github.com/IamTiji/Elements/blob/main/assets/readme/sand.mp4
 
 Sand is element that is affected by gravity, and gets stacked up. When heated hotter than 2000 degrees, gets converted to glass.
 
