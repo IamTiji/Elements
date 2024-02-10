@@ -26,4 +26,4 @@ Steam is element that is not affected by gravity, does not stacked up. When cool
 
 ### Stone
 
-Stone is element that is not affected by gravity. When heated hotter than 2000 degrees, gets converted to lava.
+Stone is soild element that is not affected by gravity. When heated hotter than 2000 degrees, gets converted to lava.
